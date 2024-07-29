@@ -33,6 +33,7 @@ Projeto para prática de desenvolvimento web Front-end, utilizando HTML, CSS e J
 - Efeitos de transição (keyframes & transition);
 - Opacidade com pseudo-elemento;
 - Mapa incorporado;
+- Botão Flutuante com Tooltip que acompanha rolagem;
 - Responsivo.
 
 ## How to use
