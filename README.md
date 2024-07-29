@@ -27,10 +27,11 @@ Projeto para prática de desenvolvimento web Front-end, utilizando HTML, CSS e J
 
 ## Features
 
-- SASS (variáveis, hierarquia, imports),
+- SASS (variáveis, hierarquia, partials),
 - Metodologia BEM;
 - Ícones externos;
 - Efeitos de transição (keyframes & transition);
+- Opacidade com pseudo-elemento;
 - .
 
 ## How to use
