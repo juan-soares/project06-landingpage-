@@ -32,7 +32,7 @@ Projeto para prática de desenvolvimento web Front-end, utilizando HTML, CSS e J
 - Ícones externos;
 - Efeitos de transição (keyframes & transition);
 - Opacidade com pseudo-elemento;
-- ;
+- Mapa incorporado;
 - Responsivo.
 
 ## How to use

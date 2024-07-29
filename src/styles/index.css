@@ -5,6 +5,38 @@
   outline: none;
 }
 
+body {
+  font-family: "Sora", sans-serif;
+  width: 100%;
+  height: 100hv;
+  position: relative;
+  background-color: #06121e;
+}
+
+button {
+  font-family: "Sora", sans-serif;
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+svg {
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .bg-home {
   position: relative;
 }
@@ -260,34 +292,14 @@ header {
     flex-direction: column;
   }
 }
-body {
-  font-family: "Sora", sans-serif;
-  width: 100%;
-  height: 100hv;
-  position: relative;
-  background-color: #06121e;
+.location {
+  background-color: #fff;
+  color: #232224;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-button {
-  font-family: "Sora", sans-serif;
-  cursor: pointer;
-}
-
-a {
-  cursor: pointer;
-  text-decoration: none;
-}
-
-img {
-  width: 100%;
-}
-
-svg {
-  width: 100%;
-}
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 10px;
+.location h2 {
+  margin-bottom: 14px;
 }/*# sourceMappingURL=index.css.map */
