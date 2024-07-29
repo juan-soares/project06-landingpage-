@@ -1,0 +1,28 @@
+@import "./colors";
+
+body {
+  font-family: "Sora", sans-serif;
+  width: 100%;
+  height: 100hv;
+  position: relative;
+
+  background-color: $primary-normal;
+}
+
+button {
+  font-family: "Sora", sans-serif;
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+svg {
+  width: 100%;
+}
