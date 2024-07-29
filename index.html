@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Juan Carlos" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="HTML, CSS, JavaScript, Landing Page" />
+    <meta
+      name="description"
+      content="Projeto de uma Landing Page desenvolvido em HTML e CSS. Consiste em uma página de uma consultoria de tecnologia fictícia, contendo navegação externa, efeitos de transição, um botão fixo com uma tooltip e um mapa do Google Maps integrado."
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Landing Page, Responsivo, SASS, Ícones, Transição, Animações, Efeito de opacidade, Google Maps, Tooltip"
+    />
 
     <link
       rel="shortcut icon"
@@ -33,21 +39,21 @@
 
     <link rel="stylesheet" href="./src/styles/index.css" />
 
-    <title></title>
+    <title>Web Consulting</title>
   </head>
   <body>
     <div class="bg-home">
       <header>
         <nav class="header-content container">
           <div class="header-icons" data-aos="fade-down" data-aos-delay="200">
-            <a href="#">
+            <a href="https://www.instagram.com/" target="_blank">
               <i class="fa-brands fa-instagram fa-2x"></i>
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com" target="_blank">
               <i class="fa-brands fa-facebook fa-2x"></i>
             </a>
-            <a href="#">
-              <i class="fa-brands fa-tiktok fa-2x"></i>
+            <a href="https://www.youtube.com" target="_blank">
+              <i class="fa-brands fa-youtube fa-2x"></i>
             </a>
           </div>
 
@@ -61,42 +67,36 @@
           </div>
 
           <div data-aos="fade-down" data-aos-delay="200">
-            <a
-              class="header-button"
-              href="https://api.whatsapp.com/send?phone=551100000000"
-              target="_blank"
-              >Agendar horário</a
-            >
+            <a class="header-button" href="#about">Sobre</a>
           </div>
         </nav>
         <main class="hero container" data-aos="fade-up" data-aos-delay="200">
-          <h1>Estilo é um reflexo</h1>
-          <p>Horário de funcionamento:</p>
+          <h1>Conecte, Inove, Cresça</h1>
+          <p>Nossos especialistas aguardam por você.</p>
           <a href="#" class="button-contact" target="_blank">Agendar horário</a>
         </main>
       </header>
     </div>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="container about-content">
-        <div data-aos="zoom-in" data-aos-delay="200">
+        <div data-aos="zoom-in" data-aos-delay="100">
           <img src="./public/assets/images/images.svg" alt="Imagem." />
         </div>
         <div
           class="about-description"
           data-aos="zoom-out-left"
-          data-aos-delay="300"
+          data-aos-delay="200"
         >
           <h2>Sobre</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum
-            nostrum aliquam eligendi id fuga, adipisci quaerat, harum eaque sunt
-            dolor officiis, quod aliquid ex rerum tempore delectus eos ea a.
+            Com experiência no mercado, a <strong>Web Consulting</strong> vem
+            para transformar ideias em soluções digitais, com expertise em
+            desenvolvimento web, design e SEO. Estamos comprometidos em elevar
+            sua presença online e superar suas expectativas com resultados de
+            alta qualidade.
           </p>
-          <p>
-            Horário de funcionamento: <strong>00:00</strong> as
-            <strong>00:00</strong>
-          </p>
+          <p>Preparado para o futuro?</p>
         </div>
       </div>
     </section>
@@ -105,10 +105,10 @@
       <div class="services-content container">
         <h2>Serviços</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          adipisci, quam deserunt sint amet veniam laudantium beatae, natus
-          laborum illo consectetur reprehenderit est enim, nostrum sunt
-          repellendus dicta culpa provident?
+          Oferecemos serviços completos, incluindo desenvolvimento web, design
+          UX/UI, SEO, marketing digital, e consultoria em tecnologia. Também
+          fornecemos suporte contínuo, treinamento e estratégias de conteúdo
+          para elevar sua presença online.
         </p>
       </div>
 
