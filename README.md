@@ -31,6 +31,7 @@ Projeto para prática de desenvolvimento web Front-end, utilizando HTML, CSS e J
 - Metodologia BEM;
 - Ícones externos;
 - Efeitos de transição (keyframes & transition);
+- Animações a partir de biblioteca externa (AOS);
 - Opacidade com pseudo-elemento;
 - Mapa incorporado;
 - Botão Flutuante com Tooltip que acompanha rolagem;
