@@ -1,4 +1,4 @@
-# 📌 LANDING PAGE: (HTML, CSS, JS)
+# 📌 LANDING PAGE: WEB CONSULTING (HTML, CSS, JS)
 
 ![Badge_Status](https://img.shields.io/badge/STATUS-FINISHED-green)
 ![Badge_Versao](https://img.shields.io/badge/VERSION-1.0-black)
@@ -15,7 +15,7 @@
 
 ## Description
 
-Projeto para prática de desenvolvimento web Front-end, utilizando HTML, CSS e JavaScript. Consiste em uma Landing Page.
+Projeto para prática de desenvolvimento web Front-end, utilizando HTML, CSS e JavaScript. Consiste em uma Landing Page de uma consultoria de tecnologia fictícia, contendo efeitos de animação em transições através de biblioteca externa, navegação interna e externa, opacidade em imagem sem afetar o conteúdo, mapa do Google Map integrado e um botão fixo com uma tooltip oculta, que acompanha o conteúdo conforme o usuário navega pelo conteúdo.
 
 ## Demo
 
