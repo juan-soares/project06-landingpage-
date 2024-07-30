@@ -6,12 +6,8 @@
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(6, 18, 30, 0.1),
-      $primary-normal
-    ),
-    url("../../public/assets/images/bg.svg");
+  background-image: linear-gradient(to bottom, rgb(6 18 30 / 44%), #000000),
+    url(../../public/assets/images/banner.png);
   left: 0;
   top: 0;
   width: 100%;
@@ -78,6 +74,8 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 14px;
+  width: 150px;
+  height: 150px;
 }
 
 @media screen and (max-width: 768px) {
