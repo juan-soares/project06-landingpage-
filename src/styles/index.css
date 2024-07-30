@@ -41,11 +41,27 @@ svg {
   padding: 0 20px;
 }
 
-.bg-home {
+@keyframes grow-up {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
+@keyframes zoon-in {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}
+header {
+  width: 100%;
   position: relative;
 }
-
-.bg-home::before {
+header::before {
   content: "";
   display: block;
   position: absolute;
@@ -60,39 +76,31 @@ svg {
   background-position: 50% 0;
   opacity: 0.9;
 }
-
-header {
-  width: 100%;
-}
-
-.header-content {
+header .header-navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.header-content i {
-  color: #fff;
-}
-
-.header-icons {
+header .header-navbar .header-icons {
   display: flex;
   gap: 14px;
 }
-
-.header-icons a:hover i {
+header .header-navbar .header-icons a:hover i {
   animation: grow-up 0.8s infinite alternate;
   color: #d34040;
 }
-
-@keyframes grow-up {
-  from {
-    transform: translateY(0) scale(1);
-  }
-  to {
-    transform: translateY(-8px) scale(1.1);
-  }
+header .header-navbar .header-icons i {
+  color: #fff;
 }
-.header-button {
+header .header-navbar .header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  width: 150px;
+  height: 150px;
+}
+header .header-navbar .header-button {
   border: 1px solid #fff;
   padding: 8px 24px;
   border-radius: 4px;
@@ -100,19 +108,40 @@ header {
   background-color: transparent;
   transition: background-color 0.8s;
 }
-
-.header-button:hover {
+header .header-navbar .header-button:hover {
   border: 1px solid #d34040;
   background-color: #d34040;
 }
-
-.header-logo {
+header .header-slogan {
+  color: #fff;
+  min-height: 80vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 14px;
-  width: 150px;
-  height: 150px;
+  padding: 14px;
+}
+header .header-slogan h1 {
+  text-align: center;
+  line-height: 150%;
+  max-width: 940px;
+  font-size: 46px;
+}
+header .header-slogan p {
+  text-align: center;
+  margin: 14px 0;
+}
+header .header-slogan .button-contact {
+  padding: 14px 20px;
+  color: #fff;
+  background-color: #d94140;
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 14px 0;
+}
+header .header-slogan .button-contact:hover {
+  animation: zoon-in 0.8s alternate infinite;
 }
 
 @media screen and (max-width: 768px) {
@@ -134,50 +163,8 @@ header {
     display: none;
   }
 }
-.hero {
-  color: #fff;
-  min-height: 80vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 14px;
-}
-.hero h1 {
-  text-align: center;
-  line-height: 150%;
-  max-width: 940px;
-  font-size: 46px;
-}
-.hero p {
-  text-align: center;
-  margin: 14px 0;
-}
-
-.button-contact {
-  padding: 14px 20px;
-  color: #fff;
-  background-color: #d94140;
-  border: 0;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 14px 0;
-}
-
-.button-contact:hover {
-  animation: zoon-in 0.8s alternate infinite;
-}
-
-@keyframes zoon-in {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.07);
-  }
-}
 @media screen and (max-width: 768px) {
-  .hero {
+  .header-slogan {
     min-height: 60vh;
   }
   h1 {
@@ -190,7 +177,7 @@ header {
   }
 }
 @media screen and (max-width: 480px) {
-  .hero h1 {
+  .header-slogan h1 {
     font-size: 24px;
   }
 }

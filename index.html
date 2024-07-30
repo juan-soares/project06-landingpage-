@@ -6,7 +6,7 @@
     <meta name="author" content="Juan Carlos" />
     <meta
       name="description"
-      content="Projeto de uma Landing Page desenvolvido em HTML e CSS. Consiste em uma página de uma consultoria de tecnologia fictícia, contendo navegação externa, efeitos de transição, um botão fixo com uma tooltip e um mapa do Google Maps integrado."
+      content="Projeto de uma Landing Page desenvolvido em HTML, CSS e JavaScript. Consiste em uma página de uma consultoria de tecnologia fictícia, contendo navegação interna e externa, efeitos de transição, um botão fixo com uma tooltip e um mapa do Google Maps integrado."
     />
     <meta
       name="keywords"
@@ -42,44 +42,46 @@
     <title>Web Consulting</title>
   </head>
   <body>
-    <div class="bg-home">
-      <header>
-        <nav class="header-content container">
-          <div class="header-icons" data-aos="fade-down" data-aos-delay="200">
-            <a href="https://www.instagram.com/" target="_blank">
-              <i class="fa-brands fa-instagram fa-2x"></i>
-            </a>
-            <a href="https://www.facebook.com" target="_blank">
-              <i class="fa-brands fa-facebook fa-2x"></i>
-            </a>
-            <a href="https://www.youtube.com" target="_blank">
-              <i class="fa-brands fa-youtube fa-2x"></i>
-            </a>
-          </div>
+    <header>
+      <nav class="header-navbar container">
+        <div class="header-icons" data-aos="fade-down" data-aos-delay="200">
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+          </a>
+          <a href="https://www.youtube.com" target="_blank">
+            <i class="fa-brands fa-youtube fa-2x"></i>
+          </a>
+        </div>
 
-          <div
-            class="header-logo"
-            data-aos="flip-up"
-            data-aos-delay="200"
-            data-aos-duration="1500"
-          >
-            <img
-              src="./public/assets/images/logo.png"
-              alt="Logotipo da empresa Web Consulting."
-            />
-          </div>
+        <div
+          class="header-logo"
+          data-aos="flip-up"
+          data-aos-delay="200"
+          data-aos-duration="1500"
+        >
+          <img
+            src="./public/assets/images/logo.png"
+            alt="Logotipo da empresa Web Consulting."
+          />
+        </div>
 
-          <div data-aos="fade-down" data-aos-delay="200">
-            <a class="header-button" href="#about">Sobre</a>
-          </div>
-        </nav>
-        <main class="hero container" data-aos="fade-up" data-aos-delay="200">
-          <h1>Conecte, Inove, Cresça</h1>
-          <p>Nossos especialistas aguardam por você.</p>
-          <a href="#" class="button-contact" target="_blank">Agendar horário</a>
-        </main>
-      </header>
-    </div>
+        <div data-aos="fade-down" data-aos-delay="200">
+          <a class="header-button" href="#about">Sobre</a>
+        </div>
+      </nav>
+      <main
+        class="header-slogan container"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <h1>Conecte, Inove, Cresça</h1>
+        <p>Nossos especialistas aguardam por você.</p>
+        <a href="#" class="button-contact" target="_blank">Agendar horário</a>
+      </main>
+    </header>
 
     <section class="about" id="about">
       <div class="container about-content">
