@@ -337,8 +337,7 @@ footer .footer-logo {
 .btn-whatsapp img:hover {
   transform: scale(1.1);
 }
-
-.tooltip {
+.btn-whatsapp .tooltip {
   visibility: hidden;
   position: absolute;
   opacity: 0;
@@ -351,7 +350,6 @@ footer .footer-logo {
   color: #fff;
   text-align: center;
 }
-
 .btn-whatsapp:hover .tooltip {
   visibility: visible;
   opacity: 1;

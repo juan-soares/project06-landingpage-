@@ -9,30 +9,30 @@
   img {
     max-width: 64px;
     transition: transform 0.4s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
-  img:hover {
-    transform: scale(1.1);
+  .tooltip {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+    width: 160px;
+    left: -165px;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: $black-normal;
+    color: $white-normal;
+    text-align: center;
   }
-}
 
-.tooltip {
-  visibility: hidden;
-  position: absolute;
-  opacity: 0;
-  transition: 0.3s;
-  width: 160px;
-  left: -165px;
-  border-radius: 8px;
-  padding: 4px;
-  background-color: $black-normal;
-  color: $white-normal;
-  text-align: center;
-}
-
-.btn-whatsapp:hover .tooltip {
-  visibility: visible;
-  opacity: 1;
+  &:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 768px) {
