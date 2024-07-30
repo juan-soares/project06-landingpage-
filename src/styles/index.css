@@ -307,16 +307,17 @@ footer {
   gap: 24px;
   color: #fff;
 }
-
-.footer-icons {
+footer .footer-icons {
   display: flex;
   gap: 18px;
 }
-.footer-icons i {
+footer .footer-icons i {
   color: #fff;
 }
-
-.footer-logo {
+footer .footer-icons i:hover {
+  color: #d94140;
+}
+footer .footer-logo {
   width: 140px;
   height: 140px;
 }

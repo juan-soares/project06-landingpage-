@@ -6,18 +6,22 @@ footer {
   padding: 54px 0;
   gap: 24px;
   color: $white-normal;
-}
 
-.footer-icons {
-  display: flex;
-  gap: 18px;
+  .footer-icons {
+    display: flex;
+    gap: 18px;
 
-  i {
-    color: $white-normal;
+    i {
+      color: $white-normal;
+
+      &:hover {
+        color: $red-normal;
+      }
+    }
   }
-}
 
-.footer-logo {
-  width: 140px;
-  height: 140px;
+  .footer-logo {
+    width: 140px;
+    height: 140px;
+  }
 }
